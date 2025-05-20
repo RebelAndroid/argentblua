@@ -28,6 +28,8 @@ RUN rpm-ostree install powertop iotop
 RUN rpm-ostree install docker-ce
 RUN rpm-ostree install fish alacritty
 
+RUN rpm-ostree install sway
+
 RUN mkdir /nix
 
 RUN rm -rf /tmp/* /var/*
