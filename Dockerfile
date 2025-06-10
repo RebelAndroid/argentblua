@@ -30,7 +30,9 @@ RUN rpm-ostree install fish alacritty
 RUN rpm-ostree install micro
 
 RUN rpm-ostree install sway
-RUN rpm-ostree install rofi 
+RUN rpm-ostree install rofi
+
+RUN rpm-ostree install steam
 
 RUN mkdir /nix
 
